@@ -24,16 +24,16 @@ INSERT INTO `pizza_gol`.`empleados` (`DNI`, `nombre`, `apellido`, `numero_contac
 (369741852, 'Miguel', 'Ramírez', 5553697418, 3200, 'Cocinero', 'Avenida Acoyte 834', 'miguel912@example.com', 20375832593, 'CO467', '2023-04-09', 7, 10);
 
 INSERT INTO `pizza_gol`.`proveedor` (`num_proveedor`, `id`, `nombre`, `telefono`, `email`, `direccion`) VALUES
-(1, 1001, 'Proveedor A', 5551111111, 'proveedorA@example.com', 'Calle Principal 123'),
-(2, 1002, 'Proveedor B', 5552222222, 'proveedorB@example.com', 'Avenida Central 456'),
-(3, 1003, 'Proveedor C', 5553333333, 'proveedorC@example.com', 'Plaza Mayor 789'),
-(4, 1004, 'Proveedor D', 5554444444, 'proveedorD@example.com', 'Calle Secundaria 456'),
-(5, 1005, 'Proveedor E', 5555555555, 'proveedorE@example.com', 'Avenida Principal 789'),
-(6, 1006, 'Proveedor F', 5556666666, 'proveedorF@example.com', 'Calle Central 456'),
-(7, 1007, 'Proveedor G', 5557777777, 'proveedorG@example.com', 'Avenida Secundaria 123'),
-(8, 1008, 'Proveedor H', 5558888888, 'proveedorH@example.com', 'Plaza Central 789'),
-(9, 1009, 'Proveedor I', 5559999999, 'proveedorI@example.com', 'Calle Mayor 123'),
-(10, 1010, 'Proveedor J', 5550000000, 'proveedorJ@example.com', 'Avenida Secundaria 789');
+(1, 1001, 'Proveedor A', 1134569598, 'proveedor_A@gmail.com', 'Calle Principal 123'),
+(2, 1002, 'Proveedor B', 1167235678, 'proveedor_B@gmail.com', 'Avenida Central 456'),
+(3, 1003, 'Proveedor C', 1112569823, 'proveedor_C@gmail.com', 'Plaza Mayor 789'),
+(4, 1004, 'Proveedor D', 1109342873, 'proveedor_D@gmail.com', 'Calle Secundaria 456'),
+(5, 1005, 'Proveedor E', 1186429341, 'proveedor_E@gmail.com', 'Avenida Principal 789'),
+(6, 1006, 'Proveedor F', 1189536914, 'proveedor_F@gmail.com', 'Calle Central 456'),
+(7, 1007, 'Proveedor G', 1159322597, 'proveedor_G@gmail.com', 'Avenida Secundaria 123'),
+(8, 1008, 'Proveedor H', 1182363247, 'proveedor_H@gmail.com', 'Plaza Central 789'),
+(9, 1009, 'Proveedor I', 1184742459, 'proveedor_I@gmail.com', 'Calle Mayor 123'),
+(10, 1010, 'Proveedor J', 1189342454, 'proveedor_J@gmail.com', 'Avenida Secundaria 789');
 
 INSERT INTO `pizza_gol`.`menu` (`cod_comida`, `nombre`, `precio`) VALUES
 (1, 'Pizza Margarita', '12.99'),
