@@ -125,3 +125,6 @@ CREATE TABLE IF NOT EXISTS `pizza_gol`.`factura_proveedor` (
   num_pedido INT NOT NULL UNIQUE,
   FOREIGN KEY (`num_pedido`) REFERENCES `pizza_gol`.`pedido_proveedores` (`num_pedido`)
 );
+
+-- consultas --
+SELECT * FROM proveedor ORDER BY num_proveedor LIMIT 7;
